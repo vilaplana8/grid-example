@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  border: thin solid red;
+
 }
 
 
@@ -19,13 +19,45 @@
   top: 2em;
 }
 
+.lingard{
+position: absolute;
+margin: 0 auto;
+right: 0;
+left: 0;
+width: 162px;
+height: 162px;
+
+}
+
+
+.manchester{
+position: relative;
+margin: 0 auto;
+  height: 50px;
+  bottom: -6em;
+  width: 50px;
+  right: 4em;
+
+
+}
+
+.bandera{
+  position: relative;
+  width: 50px;
+  height: 30px;
+  left: 1.5em;
+  top: 0;
+}
+
+
 .caja-abajo{
   position: absolute;
   margin: 0 auto;
+  bottom: 31.75em;
   left: 0;
   right: 0;
   width: 400px;
-  height: 265px;
+  height: 255px;
   background-color: #B8860B;
 
   border-radius: 20% 20%  20% 20% / 0%  0% 20% 20%
@@ -49,7 +81,7 @@
   position: absolute;
   transform: rotate(90deg);
   margin: 0 auto;
-  top: 9em;
+  top: 8em;
   left: 0;
   right: 0;
   width: 100px;
@@ -62,11 +94,44 @@
 .linea4{
   position: absolute;
   margin: 0 auto;
-  bottom: 10em;
+  bottom: 2.5em;
   left: 0;
   right: 0;
   width: 45px;
   height: 1px;
   background-color: black;
   border: thin solid black;
+}
+
+
+#media {
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 17em;
+  width: 150px;
+  height: 45px;
+  top: 1em;
+  font-size: 25px;
+}
+
+
+
+#posicion{
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 17em;
+  width: 150px;
+  height: 45px;
+  top: 2em;
+  font-size: 25px;
+}
+
+
+
+
+#ritmo{
+
+
 }
