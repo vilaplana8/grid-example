@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+  border: thin solid red;
+}
+
+
+.carta{
+  position: relative;
+  margin: 0 auto;
+     width: 400px;
+     height: 450px;
+     background: #DAA520;
+     border-radius: 5% 5% 20% 20% / 20% 20% 20% 20%;
+     text-align: center;
+}
+
+.carta img{
+  margin: 0 auto;
+  top: 2em;
+}
+
+.caja-abajo{
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  width: 400px;
+  height: 265px;
+  background-color: #B8860B;
+
+  border-radius: 20% 20%  20% 20% / 0%  0% 20% 20%
+}
+
+
+.linea2{
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  top: 3em;
+  width: 300px;
+  height: 1px;
+  background-color: black;
+  border: thin solid black;
+}
+
+
+.linea3{
+  position: absolute;
+  transform: rotate(90deg);
+  margin: 0 auto;
+  top: 9em;
+  left: 0;
+  right: 0;
+  width: 100px;
+  height: 1px;
+  background-color: black;
+  border: thin solid black;
+}
+
+
+.linea4{
+  position: absolute;
+  margin: 0 auto;
+  bottom: 10em;
+  left: 0;
+  right: 0;
+  width: 45px;
+  height: 1px;
+  background-color: black;
+  border: thin solid black;
+}
